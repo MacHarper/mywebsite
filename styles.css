@@ -16,10 +16,11 @@ body {
 }
 
 #magicText {
-    position: relative;
+    position: absolute;
     top: -2in;
     font-size: 12px;
     white-space: nowrap; /* Prevents text from wrapping */
+    left: 10px; /* Adjust this value to move it to the left */
 }
 
 #helloText {
