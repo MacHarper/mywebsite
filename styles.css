@@ -18,7 +18,7 @@ body {
 #anywhereText {
     font-size: 12px;
     margin-bottom: -8px; /* Adjust this value to align it as needed */
-    color: #45B39D; /* Blue color */
+    color: #45B39D; /* Optional styling for "anywhere" text */
 }
 
 #helloText {
