@@ -16,7 +16,7 @@ body {
 }
 
 #magicText {
-    position: absolute;
+    position: relative;
     top: -2in;
     font-size: 12px;
     white-space: nowrap; /* Prevents text from wrapping */
