@@ -3,11 +3,12 @@ const translations = {
     'spanish': 'Hola',
     'french': 'Bonjour',
     'german': 'Hallo',
-    // Add more languages as needed
     'italian': 'Ciao',
     'japanese': 'こんにちは',
     'korean': '안녕하세요',
-    // ... 37 more languages
+    'chinese': '你好',
+    'russian': 'Привет',
+    'arabic': 'مرحبًا',
 };
 
 let currentLanguage = 'english';
