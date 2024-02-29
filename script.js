@@ -24,8 +24,6 @@ function changeLanguage() {
     currentLanguage = languageKeys[nextIndex];
     helloText.innerHTML = `<p>${translations[currentLanguage]}</p>`;
 
-    // Hide "Click anywhere for magic" text after the first click
-    if (currentIndex === -1) {
-        magicText.style.display = 'none';
-    }
+    // Display "Click anywhere for magic" text only with the English word "Hello"
+    magicText.style.display = currentLanguage === 'english' ? 'block' : 'none';
 }
