@@ -18,7 +18,8 @@ body {
 #magicText {
     position: absolute;
     top: -2in;
-    font-size: 12px; 
+    font-size: 12px;
+    white-space: nowrap; /* Prevents text from wrapping */
 }
 
 #helloText {
