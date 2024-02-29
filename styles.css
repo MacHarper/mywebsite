@@ -24,3 +24,14 @@ body {
 #helloText {
     font-size: 24px;
 
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+}
+
+#footerText {
+    font-size: 13px;
+    color: black;
+}
