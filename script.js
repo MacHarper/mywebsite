@@ -9,6 +9,15 @@ const translations = {
     'chinese': '你好',
     'russian': 'Привет',
     'arabic': 'مرحبًا',
+    'portuguese': 'Olá',
+    'dutch': 'Hallo',
+    'swedish': 'Hej',
+    'turkish': 'Merhaba',
+    'greek': 'Χαίρετε',
+    'hindi': 'नमस्ते',
+    'hebrew': 'שלום',
+    'thai': 'สวัสดี',
+    'vietnamese': 'Chào bạn'
 };
 
 let currentLanguage = 'english';
