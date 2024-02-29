@@ -1,18 +1,19 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     background-color: white;
 }
 
-.container {
-    cursor: pointer;
+#helloContainer {
+    position: relative;
 }
 
-p {
-    font-size: 24px;
-    font-weight: bold;
+#magicText {
+    position: absolute;
+    top: -2in;
 }
