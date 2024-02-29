@@ -20,7 +20,10 @@ body {
     top: -2in;
     font-size: 12px;
     white-space: nowrap; /* Prevents text from wrapping */
-    left: 10px; /* Adjust this value to move it to the left */
+}
+
+#anywhereText {
+    color: blue; /* Optional styling for "anywhere" text */
 }
 
 #helloText {
