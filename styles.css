@@ -7,6 +7,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 #helloContainer {
@@ -16,4 +18,9 @@ body {
 #magicText {
     position: absolute;
     top: -2in;
+    font-size: 14px;
+}
+
+#helloText {
+    font-size: 24px;
 }
