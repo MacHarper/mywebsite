@@ -14,7 +14,7 @@ const translations = {
 let currentLanguage = 'english';
 
 function changeLanguage() {
-    const magicText = document.getElementById('magicText');
+    const magicText = document.getElementById('anywhereText');
     const helloText = document.getElementById('helloText');
 
     const languageKeys = Object.keys(translations);
