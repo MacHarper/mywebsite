@@ -1,13 +1,24 @@
-let language = 'english';
+const translations = {
+    'english': 'Hello',
+    'spanish': 'Hola',
+    'french': 'Bonjour',
+    'german': 'Hallo',
+    // Add more languages as needed
+    'italian': 'Ciao',
+    'japanese': 'こんにちは',
+    'korean': '안녕하세요',
+    // ... 37 more languages
+};
+
+let currentLanguage = 'english';
 
 function changeLanguage() {
     const helloText = document.getElementById('helloText');
 
-    if (language === 'english') {
-        helloText.innerHTML = '<p>Hola</p>';
-        language = 'spanish';
-    } else {
-        helloText.innerHTML = '<p>Hello</p>';
-        language = 'english';
-    }
+    const languageKeys = Object.keys(translations);
+    const currentIndex = languageKeys.indexOf(currentLanguage);
+    const nextIndex = (currentIndex + 1) % languageKeys.length;
+
+    currentLanguage = languageKeys[nextIndex];
+    helloText.innerHTML = `<p>${translations[currentLanguage]}</p>`;
 }
