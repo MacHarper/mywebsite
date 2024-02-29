@@ -14,7 +14,6 @@ const translations = {
 let currentLanguage = 'english';
 
 function changeLanguage() {
-    const helloContainer = document.getElementById('helloContainer');
     const magicText = document.getElementById('magicText');
     const helloText = document.getElementById('helloText');
 
@@ -25,7 +24,7 @@ function changeLanguage() {
     currentLanguage = languageKeys[nextIndex];
     helloText.innerHTML = `<p>${translations[currentLanguage]}</p>`;
 
-    // Display "Click anywhere for magic" text only on the first click
+    // Hide "Click anywhere for magic" text after the first click
     if (currentIndex === -1) {
         magicText.style.display = 'none';
     }
