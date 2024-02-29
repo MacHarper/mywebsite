@@ -8,7 +8,7 @@ body {
     justify-content: center;
     background-color: white;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: Trebuchet MS, sans-serif;
 }
 
 #helloContainer {
@@ -21,7 +21,7 @@ body {
 }
 
 #anywhereText {
-    color: blue; /* Optional styling for "anywhere" text */
+    color: #16A085; /* Optional styling for "anywhere" text */
 }
 
 #helloText {
